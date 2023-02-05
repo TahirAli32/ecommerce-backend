@@ -1,0 +1,29 @@
+{
+  "name": "ecommerce-backend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Ecommerce Backend built on Strapi",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.6.0",
+    "@strapi/plugin-users-permissions": "4.6.0",
+    "@strapi/strapi": "4.6.0",
+    "pg": "^8.9.0"
+  },
+  "author": {
+    "name": "Muhammad Tahir Ali"
+  },
+  "strapi": {
+    "uuid": "f3432703-936c-4baf-aa04-1a7b123e9466"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
